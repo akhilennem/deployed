@@ -22,7 +22,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
-
+import org.springframework.http.HttpStatus;
 import com.attendance.login.UserPackage.models.ERole;
 import com.attendance.login.UserPackage.payload.request.LoginRequest;
 import com.attendance.login.UserPackage.payload.request.SignupRequest;
